@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -7197,15 +7197,15 @@ TextureImporter:
       forest__298: -103614455
       forest__21: -435533847
       forest__249: -2035112847
-      forest__99: 301981256
       forest__183: -1783975420
-      forest__40: -2071048145
-      forest__226: -1240414357
+      forest__99: 301981256
       forest__259: -808931904
+      forest__326: -1450361540
+      forest__226: -1240414357
+      forest__40: -2071048145
       forest__233: -1874100105
       forest__278: -57947626
       forest__237: 967181703
-      forest__326: -1450361540
       forest__124: 1700489512
       forest__193: 2006919303
       forest__126: 1279381330
