@@ -938,6 +938,7 @@ GameObject:
   - component: {fileID: 217518550}
   - component: {fileID: 217518549}
   - component: {fileID: 217518548}
+  - component: {fileID: 217518551}
   m_Layer: 0
   m_Name: forestDecoration_0_0
   m_TagString: Untagged
@@ -1030,7 +1031,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217518547}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.04275191, y: 1.5837748, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1038,6 +1039,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &217518551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217518547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317cc1bb671bb8d478fa1e0ab56e0c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,7 +1322,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2045193526, guid: 2973a5bc30ad639408856050404d7035, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1372,6 +1385,7 @@ MonoBehaviour:
   playerInput: {x: 0, y: 0}
   rb: {fileID: 1737091494}
   moveSpeed: 2
+  animator: {fileID: 1737091490}
 --- !u!61 &1737091496
 BoxCollider2D:
   m_ObjectHideFlags: 0

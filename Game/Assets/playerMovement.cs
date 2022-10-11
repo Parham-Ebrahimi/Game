@@ -9,7 +9,7 @@ public class playerMovement : MonoBehaviour
     public Rigidbody2D rb;
 
     public float moveSpeed = 5f;
-
+    public Animator animator;
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -18,9 +18,17 @@ public class playerMovement : MonoBehaviour
         if(playerInput.x < 0){
             GetComponent<SpriteRenderer>().flipX=true;
         }
-        else
+        else if(playerInput.x > 0)
         {
             GetComponent<SpriteRenderer>().flipX=false;
         } 
+        if(playerInput.magnitude > 0)
+        {
+            animator.SetBool("moving",true);
+        }
+        else
+        {
+            animator.SetBool("moving",false);
+        }
     }
 }
